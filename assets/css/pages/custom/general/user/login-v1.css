@@ -98,7 +98,7 @@ background-color: #007b87; }
           font-size: 1.8rem;
           font-weight: 500; }
         .kt-login-v1 .kt-login-v1__body .kt-login-v1__wrapper .kt-login-v1__container .kt-login-v1__form .form-control {
-          border-radius: 40px;
+          border-radius: 4px;
           padding: 1.75rem 2.2rem;
           margin-top: 1.3rem;
           border-color: rgba(255, 255, 255, 0.1);
@@ -133,17 +133,17 @@ background-color: #007b87; }
               transition: color 0.3s ease; }
           .kt-login-v1 .kt-login-v1__body .kt-login-v1__wrapper .kt-login-v1__container .kt-login-v1__actions .btn {
             padding: 0.85rem 3.5rem;
-            border-radius: 60px;
+            border-radius: 4px;
             color: #fff;
             border: 0;
-            background-color: #cfb600;
+            background-color: #1dc9b7;
             font-size: 1.2rem; }
             .kt-login-v1 .kt-login-v1__body .kt-login-v1__wrapper .kt-login-v1__container .kt-login-v1__actions .btn:hover {
               padding: 0.85rem 3.5rem;
-              border-radius: 60px;
+              border-radius: 4px;
               color: #fff;
               border: 0;
-              background-color: #e4cb0f;
+              background-color: #1dc9b7;
               font-size: 1.2rem; }
         .kt-login-v1 .kt-login-v1__body .kt-login-v1__wrapper .kt-login-v1__container .kt-login-v1__divider {
           margin: 3rem 0; }
@@ -165,7 +165,7 @@ background-color: #007b87; }
           -ms-flex-pack: justify;
           justify-content: space-between; }
           .kt-login-v1 .kt-login-v1__body .kt-login-v1__wrapper .kt-login-v1__container .kt-login-v1__options .btn {
-            border-radius: 60px;
+            border-radius: 4px;
             background-color: #081b0e54;
             font-weight: 500;
             -webkit-box-flex: 1;
