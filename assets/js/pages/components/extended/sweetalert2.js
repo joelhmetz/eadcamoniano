@@ -181,12 +181,34 @@ var KTSweetAlert2Demo = function() {
             swal({
                 position: 'top-right',
                 type: 'success',
-                title: 'New users added with sucess!',
+                title: 'Added with sucess!',
                 animation: false,
                 showConfirmButton: false,
                 timer: 1500
             });
         });
+
+        $('#kt_sweetalert_save_').click(function(e) {
+            swal({
+                title: 'Are you sure?',
+                animation: false,
+                text: "Please confirm to save",
+                type: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'Confirm'
+            }).then(function(result) {
+                if (result.value) {
+                    swal({
+                        animation: false,
+                        title: 'Add!',
+                        text: 'Added with sucess!',
+                        confirmButtonText: 'success',
+                        type: 'success'
+                    })
+                }
+            });
+        });
+
     };
 
     return {
