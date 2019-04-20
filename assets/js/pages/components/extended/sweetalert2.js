@@ -155,6 +155,38 @@ var KTSweetAlert2Demo = function() {
                 }
             })
         });
+
+        $('#kt_sweetalert_save_user').click(function(e) {
+            swal({
+                title: 'Are you sure?',
+                animation: false,
+                text: "Please confirm to add new users",
+                type: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'Confirm'
+            }).then(function(result) {
+                if (result.value) {
+                    swal({
+                        animation: false,
+                        title: 'Add!',
+                        text: 'New users added with sucess!',
+                        confirmButtonText: 'success',
+                        type: 'success'
+                    })
+                }
+            });
+        });
+
+        $('#kt_sweetalert_save_user_confirm').click(function(e) {
+            swal({
+                position: 'top-right',
+                type: 'success',
+                title: 'New users added with sucess!',
+                animation: false,
+                showConfirmButton: false,
+                timer: 1500
+            });
+        });
     };
 
     return {
