@@ -1,8 +1,12 @@
 body {
+  display:flex;
+  background-image:url('../img/login/bg_login.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  padding: 0; }
+  background-repeat: repeat;
+  padding: 0;
+background-color: #007b87; }
+  
 
 .kt-login-v1 {
   padding: 0; }
@@ -94,10 +98,8 @@ body {
           font-size: 1.8rem;
           font-weight: 500; }
         .kt-login-v1 .kt-login-v1__body .kt-login-v1__wrapper .kt-login-v1__container .kt-login-v1__form .form-control {
-          border-radius: 46px;
-          height: 46px;
-          padding-left: 2rem;
-          padding-right: 2rem;
+          border-radius: 40px;
+          padding: 1.75rem 2.2rem;
           margin-top: 1.3rem;
           border-color: rgba(255, 255, 255, 0.1);
           background-color: transparent;
@@ -133,8 +135,16 @@ body {
             padding: 0.85rem 3.5rem;
             border-radius: 60px;
             color: #fff;
-            background-color: #ff146c;
-            font-size: 1.1rem; }
+            border: 0;
+            background-color: #cfb600;
+            font-size: 1.2rem; }
+            .kt-login-v1 .kt-login-v1__body .kt-login-v1__wrapper .kt-login-v1__container .kt-login-v1__actions .btn:hover {
+              padding: 0.85rem 3.5rem;
+              border-radius: 60px;
+              color: #fff;
+              border: 0;
+              background-color: #e4cb0f;
+              font-size: 1.2rem; }
         .kt-login-v1 .kt-login-v1__body .kt-login-v1__wrapper .kt-login-v1__container .kt-login-v1__divider {
           margin: 3rem 0; }
           .kt-login-v1 .kt-login-v1__body .kt-login-v1__wrapper .kt-login-v1__container .kt-login-v1__divider .kt-divider > span:not(:first-child):not(:last-child) {
@@ -156,13 +166,13 @@ body {
           justify-content: space-between; }
           .kt-login-v1 .kt-login-v1__body .kt-login-v1__wrapper .kt-login-v1__container .kt-login-v1__options .btn {
             border-radius: 60px;
-            background-color: #1F2375;
+            background-color: #081b0e54;
             font-weight: 500;
             -webkit-box-flex: 1;
             -ms-flex: 1;
             flex: 1;
             padding: 0.85rem 0;
-            font-size: 1rem;
+            font-size: 1.1rem;
             color: #fff !important; }
             .kt-login-v1 .kt-login-v1__body .kt-login-v1__wrapper .kt-login-v1__container .kt-login-v1__options .btn i {
               font-size: 1.1rem;
@@ -171,7 +181,7 @@ body {
               margin: 0 2rem; }
             .kt-login-v1 .kt-login-v1__body .kt-login-v1__wrapper .kt-login-v1__container .kt-login-v1__options .btn:hover {
               color: #fff;
-              background-color: #1F2164; }
+              background-color: #081b0e70; }
   .kt-login-v1 .kt-login-v1__footer {
     padding: 3rem;
     display: -webkit-box;
@@ -218,7 +228,8 @@ body {
     .kt-login-v1 .kt-login-v1__head .kt-login-v1__signup {
       margin-top: 0.5rem; }
       .kt-login-v1 .kt-login-v1__head .kt-login-v1__signup > .kt-login-v1__heading {
-        padding-left: 0; }
+        padding-left: 35px;
+       }
   .kt-login-v1 .kt-login-v1__body {
     padding: 3rem 1.5rem;
     display: -webkit-box;
