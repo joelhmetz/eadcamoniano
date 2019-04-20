@@ -1,6 +1,19 @@
-.btn{
+.btn {
     cursor: pointer;
 }
-.kt-head-background{
+
+.btn-primary {
+    color: #fff;
+    background-color: #00ade5;
+    border-color: #00ade5;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #009ce5;
+    border-color: #009ce5;
+}
+
+.kt-head-background {
     background-image: url("../../assets/media/misc/head_bg_sm.jpg");
 }
