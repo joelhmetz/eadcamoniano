@@ -6,10 +6,22 @@ var KTBootstrapDatetimepicker = function () {
     // Private functions
     var demos = function () {
         // minimal setup
-        $('#kt_datetimepicker_1').datetimepicker({
+        $('#kt_datetime_1, #kt_datetime_2, #kt_datetime_3').datetimepicker({
             todayHighlight: true,
             autoclose: true,
-            format: 'yyyy.mm.dd hh:ii'
+            format: 'yyyy/mm/dd hh:ii'
+        });
+
+        $('#kt_time_1').datetimepicker({
+            format: "hh:ii",
+            showMeridian: true,
+            todayHighlight: true,
+            autoclose: true,
+            startView: 1,
+            minView: 0,
+            maxView: 1,
+            forceParse: 0,
+            pickerPosition: 'bottom-left'
         });
 
         $('#kt_datetimepicker_1_modal').datetimepicker({

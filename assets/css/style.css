@@ -22,6 +22,7 @@
     background-image: url("../../assets/media/users/100_12.jpg");
 }
 
+
 .progress-bar-0 {
     color: #4d75ff;
     width: 0%;
@@ -414,12 +415,12 @@
 
 .progress-bar-78 {
     color: #4d75ff;
-    width: 8%;
+    width: 78%;
 }
 
 .progress-bar-79 {
     color: #4d75ff;
-    width: 9%;
+    width: 79%;
 }
 
 .progress-bar-80 {
@@ -526,7 +527,8 @@
     color: #4d75ff;
     width: 10%;
 }
-.progress-bar{
+
+.progress-bar {
     width: 0%;
 }
 
@@ -534,8 +536,19 @@
     margin-bottom: 0;
     padding: 0;
     border: 1px solid #e2e5ec;
-  }
+}
 
-  .logo-camoniano-height{
-      height: 40px;
-  }
+.logo-camoniano-height {
+    height: 40px;
+}
+
+@media (min-width: 1025px) {
+    .kt-wizard-v2 .kt-wizard-v2__aside2 {
+        width: 500px;
+        border-right: 1px solid #eeeef4;
+        padding: 1.0rem;
+    }
+    .kt-wizard-v2 .kt-wizard-v2__wrapper {
+        padding: 1.5rem;
+    }
+}
