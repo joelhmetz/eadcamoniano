@@ -19,7 +19,11 @@
 }
 
 .kt-avatar-profile {
-    background-image: url("../../assets/media/users/100_12.jpg");
+    background-image: url("../../assets/media/users/default.jpg");
+}
+
+.kt-avatar .kt-avatar__holder{
+    background-position: center;
 }
 
 .progress-bar-0 {
