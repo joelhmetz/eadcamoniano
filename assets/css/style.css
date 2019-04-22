@@ -22,7 +22,6 @@
     background-image: url("../../assets/media/users/100_12.jpg");
 }
 
-
 .progress-bar-0 {
     color: #4d75ff;
     width: 0%;
@@ -551,4 +550,12 @@
     .kt-wizard-v2 .kt-wizard-v2__wrapper {
         padding: 1.5rem;
     }
+}
+
+.nav-pills.nav-tabs-btn.nav-pills-btn-camoniano a.nav-link.active {
+    background-color: #009CE5;
+}
+
+.kt-badge.kt-badge--danger {
+    background-color: #B34442;
 }

@@ -553,8 +553,7 @@
                             </div>
 
                             <div class="kt-portlet__body">
-
-                                <ul class="nav nav-pills nav-tabs-btn" role="tablist">
+                                <ul class="nav nav-pills nav-tabs-btn nav-pills-btn-camoniano" role="tablist">
                                     <li class="nav-item">
                                         <a class="nav-link active" data-toggle="tab" href="#kt_tabs_Courses" role="tab">
                                             <span class="nav-link-icon"><i class="flaticon2-open-text-book"></i></span>
@@ -562,13 +561,13 @@
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#kt_tabs_8_2" role="tab">
+                                        <a class="nav-link" data-toggle="tab" href="#kt_tabs_Students" role="tab">
                                             <span class="nav-link-icon"><i class="flaticon-users"></i></span>
                                             <span class="nav-link-title">Students</span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#kt_tabs_8_3" role="tab">
+                                        <a class="nav-link" data-toggle="tab" href="#kt_tabs_Exams" role="tab">
                                             <span class="nav-link-icon"><i class="flaticon-edit-1"></i></span>
                                             <span class="nav-link-title">Exams</span>
                                         </a>
@@ -621,9 +620,9 @@
                                                                 <div class="kt-form__control">
                                                                     <select class="form-control bootstrap-select" id="kt_form_type">
 																						<option value="">All</option>
-																						<option value="1">Online</option>
-																						<option value="2">Retail</option>
-																						<option value="3">Direct</option>
+																						<option value="1">Active</option>
+																						<option value="2">Inactive</option>
+																						
 																					</select>
                                                                 </div>
                                                             </div>
@@ -640,7 +639,7 @@
                                         </div>
 
                                         <div class="kt-portlet__body kt-portlet__body--fit">
-                                            <table class="kt-datatable kt-datatable--default kt-datatable__table w-100" id="html_table">
+                                            <table class="kt-datatable kt-datatable--default kt-datatable__table w-100" id="html_courses">
                                                 <thead class="kt-datatable__head">
                                                     <tr class="kt-datatable__row">
                                                         <th data-field="Photo" class="kt-datatable__cell kt-datatable__cell--sort">
@@ -699,6 +698,342 @@
 
                                                         </td>
                                                     </tr>
+                                                    <tr class="kt-datatable__row">
+                                                        <td classs="kt-datatable__cell">
+
+                                                            <div class="kt-user-card-v2">
+                                                                <div class="kt-user-card-v2__pic">
+                                                                    <img alt="photo" src="https://scontent.fpoa14-1.fna.fbcdn.net/v/t1.0-9/21432848_1710390412305623_2452768883506819824_n.jpg?_nc_cat=110&_nc_ht=scontent.fpoa14-1.fna&oh=c24e4f7890a363a00ad9683ec826df3d&oe=5D372ED8">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td classs="kt-datatable__cell">Joel</td>
+                                                        <td classs="kt-datatable__cell">Prof. Programação</td>
+
+                                                        <td classs="kt-datatable__cell">1</td>
+
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="dropdown dropdown-inline">
+                                                                <a href="#" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Actions"> <i class="flaticon-more-1"></i> </a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <a class="dropdown-item" href="#"><i class="la la-plus"></i>
+                                                                                    New
+                                                                                    Report</a>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-user"></i>
+                                                                                    Add
+                                                                                    Customer</a>
+                                                                    <a class="dropdown-item" href="#"><i
+                                                                                        class="la la-cloud-download"></i> New Download</a>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-cog"></i>
+                                                                                    Settings</a>
+                                                                </div>
+                                                            </div>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Edit">
+                                                                <i class="la la-edit"></i>
+                                                            </a>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Delete">
+                                                                <i class="la la-trash"></i>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="kt-datatable__row">
+                                                        <td classs="kt-datatable__cell">
+
+                                                            <div class="kt-user-card-v2">
+                                                                <div class="kt-user-card-v2__pic">
+                                                                    <img alt="photo" src="https://scontent.fpoa14-1.fna.fbcdn.net/v/t1.0-9/21432848_1710390412305623_2452768883506819824_n.jpg?_nc_cat=110&_nc_ht=scontent.fpoa14-1.fna&oh=c24e4f7890a363a00ad9683ec826df3d&oe=5D372ED8">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td classs="kt-datatable__cell">Joel</td>
+                                                        <td classs="kt-datatable__cell">Prof. Programação</td>
+
+                                                        <td classs="kt-datatable__cell">1</td>
+
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="dropdown dropdown-inline">
+                                                                <a href="#" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Actions"> <i class="flaticon-more-1"></i> </a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <a class="dropdown-item" href="#"><i class="la la-plus"></i>
+                                                                                        New
+                                                                                        Report</a>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-user"></i>
+                                                                                        Add
+                                                                                        Customer</a>
+                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="la la-cloud-download"></i> New Download</a>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-cog"></i>
+                                                                                        Settings</a>
+                                                                </div>
+                                                            </div>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Edit">
+                                                                <i class="la la-edit"></i>
+                                                            </a>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Delete">
+                                                                <i class="la la-trash"></i>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="kt-datatable__row">
+                                                        <td classs="kt-datatable__cell">
+
+                                                            <div class="kt-user-card-v2">
+                                                                <div class="kt-user-card-v2__pic">
+                                                                    <img alt="photo" src="https://scontent.fpoa14-1.fna.fbcdn.net/v/t1.0-9/21432848_1710390412305623_2452768883506819824_n.jpg?_nc_cat=110&_nc_ht=scontent.fpoa14-1.fna&oh=c24e4f7890a363a00ad9683ec826df3d&oe=5D372ED8">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td classs="kt-datatable__cell">Joel</td>
+                                                        <td classs="kt-datatable__cell">Prof. Programação</td>
+
+                                                        <td classs="kt-datatable__cell">1</td>
+
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="dropdown dropdown-inline">
+                                                                <a href="#" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Actions"> <i class="flaticon-more-1"></i> </a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <a class="dropdown-item" href="#"><i class="la la-plus"></i>
+                                                                                            New
+                                                                                            Report</a>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-user"></i>
+                                                                                            Add
+                                                                                            Customer</a>
+                                                                    <a class="dropdown-item" href="#"><i
+                                                                                                class="la la-cloud-download"></i> New Download</a>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-cog"></i>
+                                                                                            Settings</a>
+                                                                </div>
+                                                            </div>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Edit">
+                                                                <i class="la la-edit"></i>
+                                                            </a>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Delete">
+                                                                <i class="la la-trash"></i>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="kt-datatable__row">
+                                                        <td classs="kt-datatable__cell">
+
+                                                            <div class="kt-user-card-v2">
+                                                                <div class="kt-user-card-v2__pic">
+                                                                    <img alt="photo" src="https://scontent.fpoa14-1.fna.fbcdn.net/v/t1.0-9/21432848_1710390412305623_2452768883506819824_n.jpg?_nc_cat=110&_nc_ht=scontent.fpoa14-1.fna&oh=c24e4f7890a363a00ad9683ec826df3d&oe=5D372ED8">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td classs="kt-datatable__cell">Joel</td>
+                                                        <td classs="kt-datatable__cell">Prof. Programação</td>
+
+                                                        <td classs="kt-datatable__cell">1</td>
+
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="dropdown dropdown-inline">
+                                                                <a href="#" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Actions"> <i class="flaticon-more-1"></i> </a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <a class="dropdown-item" href="#"><i class="la la-plus"></i>
+                                                                                                New
+                                                                                                Report</a>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-user"></i>
+                                                                                                Add
+                                                                                                Customer</a>
+                                                                    <a class="dropdown-item" href="#"><i
+                                                                                                    class="la la-cloud-download"></i> New Download</a>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-cog"></i>
+                                                                                                Settings</a>
+                                                                </div>
+                                                            </div>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Edit">
+                                                                <i class="la la-edit"></i>
+                                                            </a>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Delete">
+                                                                <i class="la la-trash"></i>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="kt-datatable__row">
+                                                        <td classs="kt-datatable__cell">
+
+                                                            <div class="kt-user-card-v2">
+                                                                <div class="kt-user-card-v2__pic">
+                                                                    <img alt="photo" src="https://scontent.fpoa14-1.fna.fbcdn.net/v/t1.0-9/21432848_1710390412305623_2452768883506819824_n.jpg?_nc_cat=110&_nc_ht=scontent.fpoa14-1.fna&oh=c24e4f7890a363a00ad9683ec826df3d&oe=5D372ED8">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td classs="kt-datatable__cell">Joel</td>
+                                                        <td classs="kt-datatable__cell">Prof. Programação</td>
+
+                                                        <td classs="kt-datatable__cell">1</td>
+
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="dropdown dropdown-inline">
+                                                                <a href="#" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Actions"> <i class="flaticon-more-1"></i> </a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <a class="dropdown-item" href="#"><i class="la la-plus"></i>
+                                                                                                    New
+                                                                                                    Report</a>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-user"></i>
+                                                                                                    Add
+                                                                                                    Customer</a>
+                                                                    <a class="dropdown-item" href="#"><i
+                                                                                                        class="la la-cloud-download"></i> New Download</a>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-cog"></i>
+                                                                                                    Settings</a>
+                                                                </div>
+                                                            </div>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Edit">
+                                                                <i class="la la-edit"></i>
+                                                            </a>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Delete">
+                                                                <i class="la la-trash"></i>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="kt-datatable__row">
+                                                        <td classs="kt-datatable__cell">
+
+                                                            <div class="kt-user-card-v2">
+                                                                <div class="kt-user-card-v2__pic">
+                                                                    <img alt="photo" src="https://scontent.fpoa14-1.fna.fbcdn.net/v/t1.0-9/21432848_1710390412305623_2452768883506819824_n.jpg?_nc_cat=110&_nc_ht=scontent.fpoa14-1.fna&oh=c24e4f7890a363a00ad9683ec826df3d&oe=5D372ED8">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td classs="kt-datatable__cell">Joel</td>
+                                                        <td classs="kt-datatable__cell">Prof. Programação</td>
+
+                                                        <td classs="kt-datatable__cell">1</td>
+
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="dropdown dropdown-inline">
+                                                                <a href="#" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Actions"> <i class="flaticon-more-1"></i> </a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <a class="dropdown-item" href="#"><i class="la la-plus"></i>
+                                                                                                        New
+                                                                                                        Report</a>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-user"></i>
+                                                                                                        Add
+                                                                                                        Customer</a>
+                                                                    <a class="dropdown-item" href="#"><i
+                                                                                                            class="la la-cloud-download"></i> New Download</a>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-cog"></i>
+                                                                                                        Settings</a>
+                                                                </div>
+                                                            </div>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Edit">
+                                                                <i class="la la-edit"></i>
+                                                            </a>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Delete">
+                                                                <i class="la la-trash"></i>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="kt-datatable__row">
+                                                        <td classs="kt-datatable__cell">
+
+                                                            <div class="kt-user-card-v2">
+                                                                <div class="kt-user-card-v2__pic">
+                                                                    <img alt="photo" src="https://scontent.fpoa14-1.fna.fbcdn.net/v/t1.0-9/21432848_1710390412305623_2452768883506819824_n.jpg?_nc_cat=110&_nc_ht=scontent.fpoa14-1.fna&oh=c24e4f7890a363a00ad9683ec826df3d&oe=5D372ED8">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td classs="kt-datatable__cell">Joel</td>
+                                                        <td classs="kt-datatable__cell">Prof. Programação</td>
+
+                                                        <td classs="kt-datatable__cell">1</td>
+
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="dropdown dropdown-inline">
+                                                                <a href="#" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Actions"> <i class="flaticon-more-1"></i> </a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <a class="dropdown-item" href="#"><i class="la la-plus"></i>
+                                                                                                            New
+                                                                                                            Report</a>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-user"></i>
+                                                                                                            Add
+                                                                                                            Customer</a>
+                                                                    <a class="dropdown-item" href="#"><i
+                                                                                                                class="la la-cloud-download"></i> New Download</a>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-cog"></i>
+                                                                                                            Settings</a>
+                                                                </div>
+                                                            </div>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Edit">
+                                                                <i class="la la-edit"></i>
+                                                            </a>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Delete">
+                                                                <i class="la la-trash"></i>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="kt-datatable__row">
+                                                        <td classs="kt-datatable__cell">
+
+                                                            <div class="kt-user-card-v2">
+                                                                <div class="kt-user-card-v2__pic">
+                                                                    <img alt="photo" src="https://keenthemes.com/keen/preview/default/assets/media/users/100_14.jpg">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td classs="kt-datatable__cell">Joel</td>
+                                                        <td classs="kt-datatable__cell">Prof. Programação</td>
+
+                                                        <td classs="kt-datatable__cell">2</td>
+
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="dropdown dropdown-inline">
+                                                                <a href="#" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Actions"> <i class="flaticon-more-1"></i> </a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <a class="dropdown-item" href="#"><i class="la la-plus"></i>
+                                                                                                                New
+                                                                                                                Report</a>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-user"></i>
+                                                                                                                Add
+                                                                                                                Customer</a>
+                                                                    <a class="dropdown-item" href="#"><i
+                                                                                                                    class="la la-cloud-download"></i> New Download</a>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-cog"></i>
+                                                                                                                Settings</a>
+                                                                </div>
+                                                            </div>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Edit">
+                                                                <i class="la la-edit"></i>
+                                                            </a>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Delete">
+                                                                <i class="la la-trash"></i>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
 
 
 
@@ -744,14 +1079,522 @@
 
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade" id="kt_tabs_8_2" role="tabpanel">
-                                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    <div class="tab-pane fade" id="kt_tabs_Students" role="tabpanel">
+                                        <div class="kt-form kt-fork--label-right kt-margin-t-20 kt-margin-b-10">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-8 order-2 order-xl-1">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-md-4 kt-margin-b-20-tablet-and-mobile">
+                                                            <div class="kt-input-icon kt-input-icon--left">
+                                                                <input type="text" class="form-control" placeholder="Search..." id="generalSearch">
+                                                                <span class="kt-input-icon__icon kt-input-icon__icon--left">
+                                                                                            <span><i class="la la-search"></i></span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 kt-margin-b-20-tablet-and-mobile">
+                                                            <div class="kt-form__group kt-form__group--inline">
+                                                                <div class="kt-form__label">
+                                                                    <label>Average:</label>
+                                                                </div>
+                                                                <div class="kt-form__control">
+                                                                    <select class="form-control bootstrap-select" id="kt_form_status">
+                                                                                                <option value="">All</option>
+                                                                                                <option value="10">10</option>
+                                                                                                <option value="20">20</option>
+                                                                                                <option value="30">30</option>
+                                                                                                <option value="40">40</option>
+                                                                                                <option value="50">50</option>
+                                                                                                <option value="60">60</option>
+                                                                                            </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 kt-margin-b-20-tablet-and-mobile">
+                                                            <div class="kt-form__group kt-form__group--inline">
+                                                                <div class="kt-form__label">
+                                                                    <label>Status:</label>
+                                                                </div>
+                                                                <div class="kt-form__control">
+                                                                    <select class="form-control bootstrap-select" id="kt_form_type">
+                                                                                                <option value="">All</option>
+                                                                                                <option value="1">Active</option>
+                                                                                                <option value="2">Inactive</option>
+                                                                                              
+                                                                                            </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 order-1 order-xl-2 kt-align-right">
+                                                    <a href="#" class="btn btn-primary">
+                                                        <i class="la la-plus"></i> New Students
+                                                    </a>
+                                                    <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg d-xl-none"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kt-portlet__body kt-portlet__body--fit">
+                                            <table class="kt-datatable kt-datatable--default kt-datatable__table w-100" id="html_students">
+                                                <thead class="kt-datatable__head">
+                                                    <tr class="kt-datatable__row">
+                                                        <th data-field="employee_id" class="kt-datatable__cell--center kt-datatable__cell kt-datatable__cell--check"><span style="width: 20px;"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox">&nbsp;<span></span></label>
+                                                            </span>
+                                                        </th>
+                                                        <th data-field="Id" class="kt-datatable__cell kt-datatable__cell--sort">Id</th>
+                                                        <th data-field="Photo" class="kt-datatable__cell kt-datatable__cell--sort">Photo</th>
+                                                        <th data-field="Name" class="kt-datatable__cell kt-datatable__cell--sort">Name</th>
+                                                        <th data-field="Address" class="kt-datatable__cell kt-datatable__cell--sort">Address</th>
+                                                        <th data-field="Date of Birth" class="kt-datatable__cell kt-datatable__cell--sort">Date of Birth</th>
+                                                        <th data-field="Phone" class="kt-datatable__cell kt-datatable__cell--sort">Phone</th>
+                                                        <th data-field="Email" class="kt-datatable__cell kt-datatable__cell--sort">Email</th>
+                                                        <th data-field="Average" class="kt-datatable__cell kt-datatable__cell--sort">Average</th>
+                                                        <th data-field="Created At" class="kt-datatable__cell kt-datatable__cell--sort">Created At</th>
+                                                        <th data-field="Status" class="kt-datatable__cell kt-datatable__cell--sort">Status</th>
+                                                        <th data-field="Actions" data-autohide-disabled="false" class="kt-datatable__cell kt-datatable__cell--sort">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="kt-datatable__body">
+
+
+                                                    <tr class="kt-datatable__row">
+                                                        <td classs="kt-datatable__cell"></td>
+                                                        <td classs="kt-datatable__cell">0001</td>
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="kt-user-card-v2">
+                                                                <div class="kt-user-card-v2__pic">
+                                                                    <img alt="photo" src="https://scontent.fpoa14-1.fna.fbcdn.net/v/t1.0-9/21432848_1710390412305623_2452768883506819824_n.jpg?_nc_cat=110&_nc_ht=scontent.fpoa14-1.fna&oh=c24e4f7890a363a00ad9683ec826df3d&oe=5D372ED8">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td classs="kt-datatable__cell">Joel Metz</td>
+                                                        <td classs="kt-datatable__cell">Av. Thomas, 3500</td>
+                                                        <td classs="kt-datatable__cell">1988/07/13</td>
+                                                        <td classs="kt-datatable__cell">+5551984141843</td>
+                                                        <td classs="kt-datatable__cell">joelmetz@gmail.com</td>
+                                                        <td classs="kt-datatable__cell">10</td>
+                                                        <td classs="kt-datatable__cell">2019/04/21</td>
+                                                        <td classs="kt-datatable__cell">1</td>
+
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="dropdown dropdown-inline">
+                                                                <a href="#" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Actions"> <i class="flaticon-more-1"></i> </a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <a class="dropdown-item" href="#"><i class="la la-plus"></i>
+																				New
+																				Report</a>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-user"></i>
+																				Add
+																				Customer</a>
+                                                                    <a class="dropdown-item" href="#"><i
+																					class="la la-cloud-download"></i> New Download</a>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-cog"></i>
+																				Settings</a>
+                                                                </div>
+                                                            </div>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Edit">
+                                                                <i class="la la-edit"></i>
+                                                            </a>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Delete">
+                                                                <i class="la la-trash"></i>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="kt-datatable__row">
+                                                        <td classs="kt-datatable__cell"></td>
+                                                        <td classs="kt-datatable__cell">0001</td>
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="kt-user-card-v2">
+                                                                <div class="kt-user-card-v2__pic">
+                                                                    <img alt="photo" src="https://scontent.fpoa14-1.fna.fbcdn.net/v/t1.0-9/21432848_1710390412305623_2452768883506819824_n.jpg?_nc_cat=110&_nc_ht=scontent.fpoa14-1.fna&oh=c24e4f7890a363a00ad9683ec826df3d&oe=5D372ED8">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td classs="kt-datatable__cell">Joel Metz</td>
+                                                        <td classs="kt-datatable__cell">Av. Thomas, 3500</td>
+                                                        <td classs="kt-datatable__cell">1988/07/13</td>
+                                                        <td classs="kt-datatable__cell">+5551984141843</td>
+                                                        <td classs="kt-datatable__cell">joelmetz@gmail.com</td>
+                                                        <td classs="kt-datatable__cell">10</td>
+                                                        <td classs="kt-datatable__cell">2019/04/21</td>
+                                                        <td classs="kt-datatable__cell">1</td>
+
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="dropdown dropdown-inline">
+                                                                <a href="#" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Actions"> <i class="flaticon-more-1"></i> </a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <a class="dropdown-item" href="#"><i class="la la-plus"></i>
+                                                                                    New
+                                                                                    Report</a>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-user"></i>
+                                                                                    Add
+                                                                                    Customer</a>
+                                                                    <a class="dropdown-item" href="#"><i
+                                                                                        class="la la-cloud-download"></i> New Download</a>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-cog"></i>
+                                                                                    Settings</a>
+                                                                </div>
+                                                            </div>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Edit">
+                                                                <i class="la la-edit"></i>
+                                                            </a>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Delete">
+                                                                <i class="la la-trash"></i>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="kt-datatable__row">
+                                                        <td classs="kt-datatable__cell"></td>
+                                                        <td classs="kt-datatable__cell">0001</td>
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="kt-user-card-v2">
+                                                                <div class="kt-user-card-v2__pic">
+                                                                    <img alt="photo" src="https://scontent.fpoa14-1.fna.fbcdn.net/v/t1.0-9/21432848_1710390412305623_2452768883506819824_n.jpg?_nc_cat=110&_nc_ht=scontent.fpoa14-1.fna&oh=c24e4f7890a363a00ad9683ec826df3d&oe=5D372ED8">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td classs="kt-datatable__cell">Joel Metz</td>
+                                                        <td classs="kt-datatable__cell">Av. Thomas, 3500</td>
+                                                        <td classs="kt-datatable__cell">1988/07/13</td>
+                                                        <td classs="kt-datatable__cell">+5551984141843</td>
+                                                        <td classs="kt-datatable__cell">joelmetz@gmail.com</td>
+                                                        <td classs="kt-datatable__cell">10</td>
+                                                        <td classs="kt-datatable__cell">2019/04/21</td>
+                                                        <td classs="kt-datatable__cell">1</td>
+
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="dropdown dropdown-inline">
+                                                                <a href="#" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Actions"> <i class="flaticon-more-1"></i> </a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <a class="dropdown-item" href="#"><i class="la la-plus"></i>
+                                                                                        New
+                                                                                        Report</a>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-user"></i>
+                                                                                        Add
+                                                                                        Customer</a>
+                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="la la-cloud-download"></i> New Download</a>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-cog"></i>
+                                                                                        Settings</a>
+                                                                </div>
+                                                            </div>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Edit">
+                                                                <i class="la la-edit"></i>
+                                                            </a>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Delete">
+                                                                <i class="la la-trash"></i>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="kt-datatable__row">
+                                                        <td classs="kt-datatable__cell"></td>
+                                                        <td classs="kt-datatable__cell">0001</td>
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="kt-user-card-v2">
+                                                                <div class="kt-user-card-v2__pic">
+                                                                    <img alt="photo" src="https://scontent.fpoa14-1.fna.fbcdn.net/v/t1.0-9/21432848_1710390412305623_2452768883506819824_n.jpg?_nc_cat=110&_nc_ht=scontent.fpoa14-1.fna&oh=c24e4f7890a363a00ad9683ec826df3d&oe=5D372ED8">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td classs="kt-datatable__cell">Joel Metz</td>
+                                                        <td classs="kt-datatable__cell">Av. Thomas, 3500</td>
+                                                        <td classs="kt-datatable__cell">1978/07/13</td>
+                                                        <td classs="kt-datatable__cell">+5551984141843</td>
+                                                        <td classs="kt-datatable__cell">joelmetz@gmail.com</td>
+                                                        <td classs="kt-datatable__cell">7</td>
+                                                        <td classs="kt-datatable__cell">2019/04/21</td>
+                                                        <td classs="kt-datatable__cell">2</td>
+
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="dropdown dropdown-inline">
+                                                                <a href="#" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Actions"> <i class="flaticon-more-1"></i> </a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <a class="dropdown-item" href="#"><i class="la la-plus"></i>
+                                                                                            New
+                                                                                            Report</a>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-user"></i>
+                                                                                            Add
+                                                                                            Customer</a>
+                                                                    <a class="dropdown-item" href="#"><i
+                                                                                                class="la la-cloud-download"></i> New Download</a>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-cog"></i>
+                                                                                            Settings</a>
+                                                                </div>
+                                                            </div>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Edit">
+                                                                <i class="la la-edit"></i>
+                                                            </a>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Delete">
+                                                                <i class="la la-trash"></i>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="kt-datatable__row">
+                                                        <td classs="kt-datatable__cell"></td>
+                                                        <td classs="kt-datatable__cell">0001</td>
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="kt-user-card-v2">
+                                                                <div class="kt-user-card-v2__pic">
+                                                                    <img alt="photo" src="https://scontent.fpoa14-1.fna.fbcdn.net/v/t1.0-9/21432848_1710390412305623_2452768883506819824_n.jpg?_nc_cat=110&_nc_ht=scontent.fpoa14-1.fna&oh=c24e4f7890a363a00ad9683ec826df3d&oe=5D372ED8">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td classs="kt-datatable__cell">Joel Metz</td>
+                                                        <td classs="kt-datatable__cell">Av. Thomas, 3500</td>
+                                                        <td classs="kt-datatable__cell">1988/07/13</td>
+                                                        <td classs="kt-datatable__cell">+5551984141843</td>
+                                                        <td classs="kt-datatable__cell">joelmetz@gmail.com</td>
+                                                        <td classs="kt-datatable__cell">10</td>
+                                                        <td classs="kt-datatable__cell">2019/04/21</td>
+                                                        <td classs="kt-datatable__cell">2</td>
+
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="dropdown dropdown-inline">
+                                                                <a href="#" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Actions"> <i class="flaticon-more-1"></i> </a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <a class="dropdown-item" href="#"><i class="la la-plus"></i>
+                                                                                                New
+                                                                                                Report</a>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-user"></i>
+                                                                                                Add
+                                                                                                Customer</a>
+                                                                    <a class="dropdown-item" href="#"><i
+                                                                                                    class="la la-cloud-download"></i> New Download</a>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-cog"></i>
+                                                                                                Settings</a>
+                                                                </div>
+                                                            </div>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Edit">
+                                                                <i class="la la-edit"></i>
+                                                            </a>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Delete">
+                                                                <i class="la la-trash"></i>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+
+
+
+
+
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col pl-5 p-3">
+
+                                                <nav aria-label="Page navigation example">
+                                                    <ul class="pagination justify-content-start">
+                                                        <li class="page-item"><a class="page-link" href="#">«</a></li>
+                                                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">»</a></li>
+                                                    </ul>
+
+                                                </nav>
+
+
+                                            </div>
+                                            <div class="col text-right pr-5 p-3">
+                                                <div class="dropdown bootstrap-select kt-datatable__pager-size" style="width: 60px;"><select class="selectpicker kt-datatable__pager-size" title="Select page size" data-width="60px" data-selected="10" tabindex="-98">
+					
+																	<option value="10">10</option>
+																	<option value="20">20</option>
+																	<option value="30">30</option>
+																	<option value="50">50</option>
+																	<option value="100">100</option>
+																</select>
+
+                                                </div>
+                                                Showing 1 - 10 of 1000
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="tab-pane fade" id="kt_tabs_8_3" role="tabpanel">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    <div class="tab-pane fade" id="kt_tabs_Exams" role="tabpanel">
+                                        <div class="kt-form kt-fork--label-right kt-margin-t-20 kt-margin-b-10">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-8 order-2 order-xl-1">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-md-4 kt-margin-b-20-tablet-and-mobile">
+                                                            <div class="kt-input-icon kt-input-icon--left">
+                                                                <input type="text" class="form-control" placeholder="Search..." id="generalSearch">
+                                                                <span class="kt-input-icon__icon kt-input-icon__icon--left">
+                                                                                                    <span><i class="la la-search"></i></span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 kt-margin-b-20-tablet-and-mobile">
+                                                            <div class="kt-form__group kt-form__group--inline">
+                                                                <div class="kt-form__label">
+                                                                    <label>Average:</label>
+                                                                </div>
+                                                                <div class="kt-form__control">
+                                                                    <select class="form-control bootstrap-select" id="kt_form_status">
+                                                                                                        <option value="">All</option>
+                                                                                                        <option value="10">10</option>
+                                                                                                        <option value="20">20</option>
+                                                                                                        <option value="30">30</option>
+                                                                                                        <option value="40">40</option>
+                                                                                                        <option value="50">50</option>
+                                                                                                        <option value="60">60</option>
+                                                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 kt-margin-b-20-tablet-and-mobile">
+                                                            <div class="kt-form__group kt-form__group--inline">
+                                                                <div class="kt-form__label">
+                                                                    <label>Status:</label>
+                                                                </div>
+                                                                <div class="kt-form__control">
+                                                                    <select class="form-control bootstrap-select" id="kt_form_type">
+                                                                                                        <option value="">All</option>
+                                                                                                        <option value="1">Active</option>
+                                                                                                        <option value="2">Inactive</option>
+                                                                                                      
+                                                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 order-1 order-xl-2 kt-align-right">
+                                                    <a href="#" class="btn btn-primary">
+                                                        <i class="la la-plus"></i> New Exam
+                                                    </a>
+                                                    <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg d-xl-none"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kt-portlet__body kt-portlet__body--fit">
+                                            <table class="kt-datatable kt-datatable--default kt-datatable__table w-100" id="html_exams">
+                                                <thead class="kt-datatable__head">
+                                                    <tr class="kt-datatable__row">
+                                                        <th data-field="employee_id" class="kt-datatable__cell--center kt-datatable__cell kt-datatable__cell--check"><span style="width: 20px;"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox">&nbsp;<span></span></label>
+                                                            </span>
+                                                        </th>
+                                                        <th data-field="Id" class="kt-datatable__cell kt-datatable__cell--sort">Id</th>
+                                                        <th data-field="Name" class="kt-datatable__cell kt-datatable__cell--sort">Name</th>
+                                                        <th data-field="Created At" class="kt-datatable__cell kt-datatable__cell--sort">Created At</th>
+                                                        <th data-field="Start Date" class="kt-datatable__cell kt-datatable__cell--sort">Start Date</th>
+                                                        <th data-field="Start End" class="kt-datatable__cell kt-datatable__cell--sort">Start End</th>
+                                                        <th data-field="Deadline" class="kt-datatable__cell kt-datatable__cell--sort">Deadline</th>
+                                                        <th data-field="Correction" class="kt-datatable__cell kt-datatable__cell--sort">Correction</th>
+                                                        <th data-field="Average" class="kt-datatable__cell kt-datatable__cell--sort">Average</th>
+                                                        <th data-field="Status" class="kt-datatable__cell kt-datatable__cell--sort">Status</th>
+                                                        <th data-field="Actions" data-autohide-disabled="false" class="kt-datatable__cell kt-datatable__cell--sort">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="kt-datatable__body">
+
+
+                                                    <tr class="kt-datatable__row">
+                                                        <td classs="kt-datatable__cell"></td>
+                                                        <td classs="kt-datatable__cell">0001</td>
+                                                        <td classs="kt-datatable__cell">Exam 001</td>
+                                                        <td classs="kt-datatable__cell">2019/04/01</td>
+                                                        <td classs="kt-datatable__cell">2019/04/21</td>
+                                                        <td classs="kt-datatable__cell">2019/04/21</td>
+                                                        <td classs="kt-datatable__cell">2019/04/21</td>
+                                                        <td classs="kt-datatable__cell">2019/04/21</td>
+                                                        <td classs="kt-datatable__cell">10</td>
+                                                        <td classs="kt-datatable__cell">1</td>
+
+                                                        <td classs="kt-datatable__cell">
+                                                            <div class="dropdown dropdown-inline">
+                                                                <a href="#" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Actions"> <i class="flaticon-more-1"></i> </a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <a class="dropdown-item" href="#"><i class="la la-plus"></i>
+                                                                                        New
+                                                                                        Report</a>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-user"></i>
+                                                                                        Add
+                                                                                        Customer</a>
+                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="la la-cloud-download"></i> New Download</a>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <a class="dropdown-item" href="#"><i class="la la-cog"></i>
+                                                                                        Settings</a>
+                                                                </div>
+                                                            </div>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Edit">
+                                                                <i class="la la-edit"></i>
+                                                            </a>
+
+                                                            <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Delete">
+                                                                <i class="la la-trash"></i>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+
+
+
+
+
+
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col pl-5 p-3">
+
+                                                <nav aria-label="Page navigation example">
+                                                    <ul class="pagination justify-content-start">
+                                                        <li class="page-item"><a class="page-link" href="#">«</a></li>
+                                                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">»</a></li>
+                                                    </ul>
+
+                                                </nav>
+
+
+                                            </div>
+                                            <div class="col text-right pr-5 p-3">
+                                                <div class="dropdown bootstrap-select kt-datatable__pager-size" style="width: 60px;"><select class="selectpicker kt-datatable__pager-size" title="Select page size" data-width="60px" data-selected="10" tabindex="-98">
+                            
+                                                                            <option value="10">10</option>
+                                                                            <option value="20">20</option>
+                                                                            <option value="30">30</option>
+                                                                            <option value="50">50</option>
+                                                                            <option value="100">100</option>
+                                                                        </select>
+
+                                                </div>
+                                                Showing 1 - 10 of 1000
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="tab-pane fade" id="kt_tabs_Messages" role="tabpanel">
                                         <div class="kt-form kt-fork--label-right kt-margin-t-20 kt-margin-b-10">
@@ -1001,9 +1844,8 @@
     <!--end::Global Theme Bundle -->
 
     <!--begin::Page Scripts(used by this page) -->
-    <script src="assets/js/pages/components/extended/sweetalert2.js" type="text/javascript"></script>
 
-    <script src="assets/js/grid-courses.js" type="text/javascript"></script>
+    <script src="assets/js/grid-classes.js" type="text/javascript"></script>
     <!--end::Page Scripts -->
 </body>
 
