@@ -14,6 +14,18 @@ var KTDatatableHtmlTableGrid = function() {
             sortable: false,
 
             columns: [{
+                    field: 'employee_id',
+                    title: '#',
+                    sortable: false,
+                    width: 20,
+                    selector: {
+                        class: 'kt-checkbox--solid'
+                    },
+                    textAlign: 'center',
+                },
+
+
+                {
                     field: 'Photo',
                     width: 40,
                 },
