@@ -602,7 +602,7 @@ body {
 .kt-sticky-toolbar-mobile {
     width: 60px;
         position: absolute;
-        top: 8%;
+        top: 10%;
         right: 0;
         list-style: none;
         padding: 5px 0;
