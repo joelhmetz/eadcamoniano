@@ -584,8 +584,11 @@
 		<!-- end:: Scrolltop -->
 
 		<!-- begin:: Demo Toolbar -->
-		<a href="#" class="">
+		<a href="#" class="kt-hidden-tablet-and-mobile">
 			<ul class="kt-sticky-toolbar" >
+					<li class="kt-sticky-toolbar__item p-2" id="kt_demo_panel_toggle" data-toggle="kt-tooltip" title="View Progress" data-placement="right">
+							<i class="fas fa-chevron-left"></i>
+						</li>
 			<li class="kt-sticky-toolbar__item p-2" id="kt_demo_panel_toggle" data-toggle="kt-tooltip" title="Class Progress" data-placement="right">
 				<div class="kt-widget-13">
 					<div class="kt-widget-13__foot">
@@ -600,7 +603,79 @@
 					</div>
 				</div>
 			</li>
-			<li class="kt-sticky-toolbar__item p-2 kt-hidden-tablet-and-mobile" id="kt_demo_panel_toggle"  data-toggle="kt-tooltip" title="Juliano Casanova" data-placement="left">
+			<li class="kt-sticky-toolbar__item p-2" id="kt_demo_panel_toggle">
+				<!--Begin::Timeline -->
+				<div class="pl-4">
+				<div class="kt-timeline">
+					<!--Begin::Item -->
+					<div class="kt-timeline__item__xxx kt-timeline__item--xxx">
+						<div class="kt-timeline__item-section">
+							<div class="kt-timeline__item-section-border">
+								<div class="kt-timeline__item-section-icon">
+									<span class="kt-font-bold kt-font-success">00</span>
+								</div>
+							</div>
+						</div>
+						<div class="kt-timeline__item-info"></div>
+					</div>
+
+
+					<div class="kt-timeline__item kt-timeline__item--success">
+						<div class="kt-timeline__item-section ">
+							<div class="kt-timeline__item-section-border">
+								<div class="kt-timeline__item-section-icon">
+									<span class="kt-font-bold kt-font-success">01</span>
+								</div>
+							</div>
+								</div>
+								<div class="kt-timeline__item-info"></div>
+					</div>
+					<!--End::Item -->
+
+					<!--Begin::Item -->
+					<div class="kt-timeline__item kt-timeline__item--metal">
+						<div class="kt-timeline__item-section">
+							<div class="kt-timeline__item-section-border">
+								<div class="kt-timeline__item-section-icon">
+									<span class="kt-font-bold kt-font-watch">02</span>
+								</div>
+							</div>
+					
+						</div>
+						<div class="kt-timeline__item-info"></div>
+					</div>
+
+					<!--End::Item -->
+
+					<!--Begin::Item -->
+					<div class="kt-timeline__item kt-timeline__item--metal">
+						<div class="kt-timeline__item-section">
+							<div class="kt-timeline__item-section-border">
+								<div class="kt-timeline__item-section-icon">
+									<span class="kt-font-bold kt-font-watch">03</span>
+								</div>
+							</div>
+						</div>
+						<div class="kt-timeline__item-info"></div>
+					</div>
+
+					<!--End::Item -->
+					<!--Begin::Item -->
+					<div class="kt-timeline__item kt-timeline__item--metal">
+						<div class="kt-timeline__item-section">
+							<div class="kt-timeline__item-section-border">
+								<div class="kt-timeline__item-section-icon"><i class="flaticon-list-2 kt-font-watch"></i></div>
+							</div>
+						</div>
+
+					</div>
+
+					<!--End::Item -->
+				</div>
+			</div>
+				<!--End::Timeline -->
+			</li>
+			<li class="kt-sticky-toolbar__item p-2" id="kt_demo_panel_toggle"  data-toggle="kt-tooltip" title="Juliano Casanova" data-placement="left">
 					<div class="kt-widget-4">
 					<div class="kt-widget-4__item">
 						<div class="kt-widget-4__item-content">
@@ -616,6 +691,28 @@
 			</li>
 			
 		</ul></a>
+
+		<a href="#" class="kt-hidden-desktop">
+				<ul class="kt-sticky-toolbar-mobile" >
+						<li class="kt-sticky-toolbar__item p-2" id="kt_demo_panel_toggle" data-toggle="kt-tooltip" title="View Progress" data-placement="right">
+								<i class="fas fa-chevron-left"></i>
+							</li>
+				<li class="kt-sticky-toolbar__item p-2" id="kt_demo_panel_toggle" data-toggle="kt-tooltip" title="Class Progress" data-placement="right">
+					<div class="kt-widget-13">
+						<div class="kt-widget-13__foot">
+							<div class="kt-widget-13__progress">
+								<div class="kt-widget-13__progress-info">
+									<div class="kt-widget-13__progress-value">24%</div>
+								</div>
+								<div class="progress">
+									<div class="progress-bar-24 kt-bg-brand" role="progressbar" aria-valuenow="24" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				
+			</ul></a>
 
 		<!-- end:: Toolbar -->
 
@@ -791,7 +888,6 @@
 
 						<!--End::Item -->
 					</div>
-
 					<!--End::Timeline -->
 				</div>
 				<div class="kt-demo-panel__item ">
