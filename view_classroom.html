@@ -584,12 +584,12 @@
 		<!-- end:: Scrolltop -->
 
 		<!-- begin:: Demo Toolbar -->
-		<a href="#" class="kt-hidden-tablet-and-mobile">
+		<a href="#" id="kt_demo_panel_toggle" class="kt-hidden-tablet-and-mobile">
 			<ul class="kt-sticky-toolbar" >
-					<li class="kt-sticky-toolbar__item p-2" id="kt_demo_panel_toggle" data-toggle="kt-tooltip" title="View Progress" data-placement="right">
+					<li class="kt-sticky-toolbar__item p-2"  data-toggle="kt-tooltip" title="View Progress" data-placement="right">
 							<i class="fas fa-chevron-left"></i>
 						</li>
-			<li class="kt-sticky-toolbar__item p-2" id="kt_demo_panel_toggle" data-toggle="kt-tooltip" title="Class Progress" data-placement="right">
+			<li class="kt-sticky-toolbar__item p-2" data-toggle="kt-tooltip" title="Class Progress" data-placement="right">
 				<div class="kt-widget-13">
 					<div class="kt-widget-13__foot">
 						<div class="kt-widget-13__progress">
@@ -603,7 +603,7 @@
 					</div>
 				</div>
 			</li>
-			<li class="kt-sticky-toolbar__item p-2" id="kt_demo_panel_toggle">
+			<li class="kt-sticky-toolbar__item p-2">
 				<!--Begin::Timeline -->
 				<div class="pl-4">
 				<div class="kt-timeline">
@@ -675,7 +675,7 @@
 			</div>
 				<!--End::Timeline -->
 			</li>
-			<li class="kt-sticky-toolbar__item p-2" id="kt_demo_panel_toggle"  data-toggle="kt-tooltip" title="Juliano Casanova" data-placement="left">
+			<li class="kt-sticky-toolbar__item p-2" data-toggle="kt-tooltip" title="Juliano Casanova" data-placement="left">
 					<div class="kt-widget-4">
 					<div class="kt-widget-4__item">
 						<div class="kt-widget-4__item-content">
@@ -692,12 +692,12 @@
 			
 		</ul></a>
 
-		<a href="#" class="kt-hidden-desktop">
+		<a href="#" id="kt_mobile_panel_toggle"  class="kt-hidden-desktop">
 				<ul class="kt-sticky-toolbar-mobile" >
-						<li class="kt-sticky-toolbar__item p-2" id="kt_demo_panel_toggle" data-toggle="kt-tooltip" title="View Progress" data-placement="right">
+						<li class="kt-sticky-toolbar__item p-2" data-toggle="kt-tooltip" title="View Progress" data-placement="right">
 								<i class="fas fa-chevron-left"></i>
 							</li>
-				<li class="kt-sticky-toolbar__item p-2" id="kt_demo_panel_toggle" data-toggle="kt-tooltip" title="Class Progress" data-placement="right">
+				<li class="kt-sticky-toolbar__item p-2" data-toggle="kt-tooltip" title="Class Progress" data-placement="right">
 					<div class="kt-widget-13">
 						<div class="kt-widget-13__foot">
 							<div class="kt-widget-13__progress">
@@ -914,6 +914,202 @@
 			</div>
 		</div>
 
+		<div id="kt_mobile_panel" class="kt-demo-panel">
+				<div class="kt-demo-panel__head">
+					<h3 class="kt-demo-panel__title">
+						Literatura
+	
+						<!--<small>5</small>-->
+					</h3>
+					<a href="#" class="kt-demo-panel__close" id="kt_demo_panel_close"><i class="flaticon2-delete"></i></a>
+				</div>
+				<div class="kt-demo-panel__body">
+					<div class="kt-demo-panel__item kt-demo-panel__item--active">
+						<div class="kt-widget-13">
+							<div class="kt-widget-13__foot">
+								<div class="kt-widget-13__progress">
+									<div class="kt-widget-13__progress-info">
+										<div class="kt-widget-13__progress-status">
+											Progress
+										</div>
+										<div class="kt-widget-13__progress-value">24%</div>
+									</div>
+									<div class="progress">
+										<div class="progress-bar-24 kt-bg-brand" role="progressbar" aria-valuenow="24" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="kt-demo-panel__item ">
+						  <!--Begin::Timeline -->
+						  <div class="kt-timeline">
+							<!--Begin::Item -->
+							<div class="kt-timeline__item__xxx kt-timeline__item--xxx">
+								<div class="kt-timeline__item-section">
+									<div class="kt-timeline__item-section-border">
+										<div class="kt-timeline__item-section-icon">
+											<span class="kt-font-bold kt-font-success">00</span>
+										</div>
+									</div>
+									<span class="kt-timeline__item-datetime kt-font-bold kt-font-success">Watched</span>
+								</div>
+								<div class="kt-timeline__item-info">
+									<div class="kt-list kt-list--badge">
+										<div class="kt-list__item">
+											<span class="kt-list__badge kt-list__badge--success"></span>
+											<span class="kt-list__text"><a href="" class="text-success"> Mussum Ipsum</a></span>
+	
+										</div>
+										<div class="kt-list__item">
+											<span class="kt-list__badge kt-list__badge--success"></span>
+											<span class="kt-list__text"><a href="" class="text-success"> Cacilds vidis</a></span>
+	
+										</div>
+										<div class="kt-list__item">
+											<span class="kt-list__badge kt-list__badge--success"></span>
+											<span class="kt-list__text "><a href="" class="text-success"> Litro abertis</a></span>
+	
+										</div>
+									</div>
+								</div>
+							</div>
+	
+	
+							<div class="kt-timeline__item kt-timeline__item--success">
+								<div class="kt-timeline__item-section ">
+									<div class="kt-timeline__item-section-border">
+										<div class="kt-timeline__item-section-icon">
+											<span class="kt-font-bold kt-font-success">01</span>
+										</div>
+									</div>
+									<span class="kt-timeline__item-datetime kt-font-bold kt-font-success">Pré modernismo</span>
+								</div>
+								<div class="kt-timeline__item-info">
+									<div class="kt-list kt-list--badge">
+										<div class="kt-list__item">
+											<span class="kt-list__badge kt-list__badge--success"></span>
+											<span class="kt-list__text"><a href="" class="text-success"> Introdução ao modernismo</a></span>
+	
+										</div>
+										<div class="kt-list__item">
+											<span class="kt-list__badge kt-list__badge--brand"></span>
+											<span class="kt-list__text"><a href=""> O modernismo no Brasil</a></span>
+	
+										</div>
+										<div class="kt-list__item">
+											<span class="kt-list__badge kt-list__badge--metal"></span>
+											<span class="kt-list__text "><a href="" class="text-muted"> Atividades</a></span>
+	
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--End::Item -->
+	
+							<!--Begin::Item -->
+							<div class="kt-timeline__item kt-timeline__item--metal">
+								<div class="kt-timeline__item-section">
+									<div class="kt-timeline__item-section-border">
+										<div class="kt-timeline__item-section-icon">
+											<span class="kt-font-bold kt-font-watch">02</span>
+										</div>
+									</div>
+									<span class="kt-timeline__item-datetime">Barroco</span>
+								</div>
+								<div class="kt-timeline__item-info">
+									<div class="kt-list kt-list--badge">
+										<div class="kt-list__item">
+											<span class="kt-list__badge kt-list__badge--metal"></span>
+											<span class="kt-list__text"><a href="" class="text-muted"> Principais autores</a></span>
+	
+										</div>
+										<div class="kt-list__item">
+											<span class="kt-list__badge kt-list__badge--metal"></span>
+											<span class="kt-list__text"><a href="" class="text-muted">O modernismo no Brasil</a></span>
+	
+										</div>
+										<div class="kt-list__item">
+											<span class="kt-list__badge kt-list__badge--metal"></span>
+											<span class="kt-list__text "><a href="" class="text-muted">Atividades</a></span>
+	
+										</div>
+									</div>
+								</div>
+							</div>
+	
+							<!--End::Item -->
+	
+							<!--Begin::Item -->
+							<div class="kt-timeline__item kt-timeline__item--metal">
+								<div class="kt-timeline__item-section">
+									<div class="kt-timeline__item-section-border">
+										<div class="kt-timeline__item-section-icon">
+											<span class="kt-font-bold kt-font-watch">03</span>
+										</div>
+									</div>
+									<span class="kt-timeline__item-datetime">Arcadismo</span>
+								</div>
+								<div class="kt-timeline__item-info">
+									<div class="kt-list kt-list--badge">
+										<div class="kt-list__item">
+											<span class="kt-list__badge kt-list__badge--metal"></span>
+											<span class="kt-list__text"><a href="" class="text-muted"> Mussum Ipsum</a></span>
+	
+										</div>
+										<div class="kt-list__item">
+											<span class="kt-list__badge kt-list__badge--metal"></span>
+											<span class="kt-list__text"><a href="" class="text-muted">Cacilds vidis litro abertis</a></span>
+	
+										</div>
+										<div class="kt-list__item">
+											<span class="kt-list__badge kt-list__badge--metal"></span>
+											<span class="kt-list__text "><a href="" class="text-muted">Praesent vel viverra nisi</a></span>
+	
+										</div>
+									</div>
+								</div>
+							</div>
+	
+							<!--End::Item -->
+							<!--Begin::Item -->
+							<div class="kt-timeline__item kt-timeline__item--metal">
+								<div class="kt-timeline__item-section">
+									<div class="kt-timeline__item-section-border">
+										<div class="kt-timeline__item-section-icon"><i class="flaticon-list-2 kt-font-watch"></i></div>
+									</div>
+									<span class="kt-timeline__item-datetime">Completed</span>
+								</div>
+	
+							</div>
+	
+							<!--End::Item -->
+						</div>
+						<!--End::Timeline -->
+					</div>
+					<div class="kt-demo-panel__item ">
+						<div class="kt-widget-4">
+							<div class="kt-widget-4__item">
+								<div class="kt-widget-4__item-content">
+									<div class="kt-widget-4__item-section">
+										<div class="kt-widget-4__item-pic">
+											<img class="" src="./assets/media/users/300_9.jpg" alt="" />
+										</div>
+										<div class="kt-widget-4__item-info">
+											<div class="kt-widget-4__item-username">Juliano Casanova</div>
+											<div class="kt-widget-4__item-desc">Professor</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+					</div>
+		
+				
+				
+				</div>
+			</div>
 		<!-- end::Demo Panel -->
 
 		<!-- begin::Global Config(global config for global JS sciprts) -->
