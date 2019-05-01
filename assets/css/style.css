@@ -568,6 +568,7 @@ body {
 
 .kt-timeline .kt-timeline__item__xxx.kt-timeline__item--xxx .kt-timeline__item-section .kt-timeline__item-section-border .kt-timeline__item-section-icon {
     background-color: #D1F4F1;
+<<<<<<< HEAD
 }
 
 .kt-sticky-toolbar {
@@ -596,4 +597,6 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     border-radius: 3px 0 0 3px;
+=======
+>>>>>>> b889f21aef0bc32db7ba3386ea0b38aee1d7735d
 }
