@@ -1,628 +1,661 @@
 .btn {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #00ade5;
-    border-color: #00ade5;
+  color: #fff;
+  background-color: #00ade5;
+  border-color: #00ade5;
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #009ce5;
-    border-color: #009ce5;
+  color: #fff;
+  background-color: #009ce5;
+  border-color: #009ce5;
 }
 
 .kt-head-background {
-    background-image: url("../../assets/media/misc/head_bg_sm.jpg");
+  background-image: url("../../assets/media/misc/head_bg_sm.jpg");
 }
 
 .kt-avatar-profile {
-    background-image: url("../../assets/media/users/default.jpg");
+  background-image: url("../../assets/media/users/default.jpg");
 }
 
 .kt-avatar .kt-avatar__holder {
-    background-position: center;
+  background-position: center;
 }
 
 .progress-bar-0 {
-    width: 0%;
+  width: 0%;
 }
 
 .progress-bar-1 {
-    width: 1%;
+  width: 1%;
 }
 
 .progress-bar-2 {
-    width: 2%;
+  width: 2%;
 }
 
 .progress-bar-3 {
-    width: 3%;
+  width: 3%;
 }
 
 .progress-bar-4 {
-    width: 4%;
+  width: 4%;
 }
 
 .progress-bar-5 {
-    width: 5%;
+  width: 5%;
 }
 
 .progress-bar-6 {
-    width: 6%;
+  width: 6%;
 }
 
 .progress-bar-7 {
-    width: 7%;
+  width: 7%;
 }
 
 .progress-bar-8 {
-    width: 8%;
+  width: 8%;
 }
 
 .progress-bar-9 {
-    width: 9%;
+  width: 9%;
 }
 
 .progress-bar-10 {
-    width: 10%;
+  width: 10%;
 }
 
 .progress-bar-11 {
-    width: 11%;
+  width: 11%;
 }
 
 .progress-bar-12 {
-    width: 12%;
+  width: 12%;
 }
 
 .progress-bar-13 {
-    width: 13%;
+  width: 13%;
 }
 
 .progress-bar-14 {
-    width: 14%;
+  width: 14%;
 }
 
 .progress-bar-15 {
-    width: 15%;
+  width: 15%;
 }
 
 .progress-bar-16 {
-    width: 16%;
+  width: 16%;
 }
 
 .progress-bar-17 {
-    width: 17%;
+  width: 17%;
 }
 
 .progress-bar-18 {
-    width: 18%;
+  width: 18%;
 }
 
 .progress-bar-19 {
-    width: 19%;
+  width: 19%;
 }
 
 .progress-bar-20 {
-    width: 20%;
+  width: 20%;
 }
 
 .progress-bar-21 {
-    width: 21%;
+  width: 21%;
 }
 
 .progress-bar-22 {
-    width: 22%;
+  width: 22%;
 }
 
 .progress-bar-23 {
-    width: 23%;
+  width: 23%;
 }
 
 .progress-bar-24 {
-    width: 24%;
+  width: 24%;
 }
 
 .progress-bar-25 {
-    width: 25%;
+  width: 25%;
 }
 
 .progress-bar-26 {
-    width: 26%;
+  width: 26%;
 }
 
 .progress-bar-27 {
-    width: 27%;
+  width: 27%;
 }
 
 .progress-bar-28 {
-    width: 28%;
+  width: 28%;
 }
 
 .progress-bar-29 {
-    width: 29%;
+  width: 29%;
 }
 
 .progress-bar-30 {
-    width: 30%;
+  width: 30%;
 }
 
 .progress-bar-31 {
-    width: 31%;
+  width: 31%;
 }
 
 .progress-bar-32 {
-    width: 32%;
+  width: 32%;
 }
 
 .progress-bar-33 {
-    width: 33%;
+  width: 33%;
 }
 
 .progress-bar-34 {
-    width: 34%;
+  width: 34%;
 }
 
 .progress-bar-35 {
-    width: 35%;
+  width: 35%;
 }
 
 .progress-bar-36 {
-    width: 36%;
+  width: 36%;
 }
 
 .progress-bar-37 {
-    width: 37%;
+  width: 37%;
 }
 
 .progress-bar-38 {
-    width: 38%;
+  width: 38%;
 }
 
 .progress-bar-39 {
-    width: 39%;
+  width: 39%;
 }
 
 .progress-bar-40 {
-    width: 40%;
+  width: 40%;
 }
 
 .progress-bar-41 {
-    width: 41%;
+  width: 41%;
 }
 
 .progress-bar-42 {
-    width: 42%;
+  width: 42%;
 }
 
 .progress-bar-43 {
-    width: 43%;
+  width: 43%;
 }
 
 .progress-bar-44 {
-    width: 44%;
+  width: 44%;
 }
 
 .progress-bar-45 {
-    width: 45%;
+  width: 45%;
 }
 
 .progress-bar-46 {
-    width: 46%;
+  width: 46%;
 }
 
 .progress-bar-47 {
-    width: 47%;
+  width: 47%;
 }
 
 .progress-bar-48 {
-    width: 48%;
+  width: 48%;
 }
 
 .progress-bar-49 {
-    width: 49%;
+  width: 49%;
 }
 
 .progress-bar-50 {
-    width: 50%;
+  width: 50%;
 }
 
 .progress-bar-51 {
-    width: 51%;
+  width: 51%;
 }
 
 .progress-bar-52 {
-    width: 52%;
+  width: 52%;
 }
 
 .progress-bar-53 {
-    width: 53%;
+  width: 53%;
 }
 
 .progress-bar-54 {
-    width: 54%;
+  width: 54%;
 }
 
 .progress-bar-55 {
-    width: 55%;
+  width: 55%;
 }
 
 .progress-bar-56 {
-    width: 56%;
+  width: 56%;
 }
 
 .progress-bar-57 {
-    width: 57%;
+  width: 57%;
 }
 
 .progress-bar-58 {
-    width: 58%;
+  width: 58%;
 }
 
 .progress-bar-59 {
-    width: 59%;
+  width: 59%;
 }
 
 .progress-bar-60 {
-    width: 60%;
+  width: 60%;
 }
 
 .progress-bar-61 {
-    width: 61%;
+  width: 61%;
 }
 
 .progress-bar-62 {
-    width: 62%;
+  width: 62%;
 }
 
 .progress-bar-63 {
-    width: 63%;
+  width: 63%;
 }
 
 .progress-bar-64 {
-    width: 64%;
+  width: 64%;
 }
 
 .progress-bar-65 {
-    width: 65%;
+  width: 65%;
 }
 
 .progress-bar-66 {
-    width: 66%;
+  width: 66%;
 }
 
 .progress-bar-67 {
-    width: 67%;
+  width: 67%;
 }
 
 .progress-bar-68 {
-    width: 68%;
+  width: 68%;
 }
 
 .progress-bar-69 {
-    width: 69%;
+  width: 69%;
 }
 
 .progress-bar-70 {
-    width: 70%;
+  width: 70%;
 }
 
 .progress-bar-71 {
-    width: 71%;
+  width: 71%;
 }
 
 .progress-bar-72 {
-    width: 72%;
+  width: 72%;
 }
 
 .progress-bar-73 {
-    width: 73%;
+  width: 73%;
 }
 
 .progress-bar-74 {
-    width: 74%;
+  width: 74%;
 }
 
 .progress-bar-75 {
-    width: 75%;
+  width: 75%;
 }
 
 .progress-bar-76 {
-    width: 76%;
+  width: 76%;
 }
 
 .progress-bar-77 {
-    width: 77%;
+  width: 77%;
 }
 
 .progress-bar-78 {
-    width: 78%;
+  width: 78%;
 }
 
 .progress-bar-79 {
-    width: 79%;
+  width: 79%;
 }
 
 .progress-bar-80 {
-    width: 80%;
+  width: 80%;
 }
 
 .progress-bar-81 {
-    width: 81%;
+  width: 81%;
 }
 
 .progress-bar-82 {
-    width: 82%;
+  width: 82%;
 }
 
 .progress-bar-83 {
-    width: 83%;
+  width: 83%;
 }
 
 .progress-bar-84 {
-    width: 84%;
+  width: 84%;
 }
 
 .progress-bar-85 {
-    width: 85%;
+  width: 85%;
 }
 
 .progress-bar-86 {
-    width: 86%;
+  width: 86%;
 }
 
 .progress-bar-87 {
-    width: 87%;
+  width: 87%;
 }
 
 .progress-bar-88 {
-    width: 88%;
+  width: 88%;
 }
 
 .progress-bar89 {
-    width: 89%;
+  width: 89%;
 }
 
 .progress-bar-90 {
-    width: 90%;
+  width: 90%;
 }
 
 .progress-bar-91 {
-    width: 91%;
+  width: 91%;
 }
 
 .progress-bar-92 {
-    width: 92%;
+  width: 92%;
 }
 
 .progress-bar-93 {
-    width: 93%;
+  width: 93%;
 }
 
 .progress-bar-94 {
-    width: 94%;
+  width: 94%;
 }
 
 .progress-bar-95 {
-    width: 95%;
+  width: 95%;
 }
 
 .progress-bar-96 {
-    width: 96%;
+  width: 96%;
 }
 
 .progress-bar-97 {
-    width: 97%;
+  width: 97%;
 }
 
 .progress-bar-98 {
-    width: 98%;
+  width: 98%;
 }
 
 .progress-bar-99 {
-    width: 99%;
+  width: 99%;
 }
 
 .progress-bar-100 {
-    width: 10%;
+  width: 10%;
 }
 
 .progress-bar {
-    width: 0%;
+  width: 0%;
 }
 
 .bootstrap-select.form-control {
-    margin-bottom: 0;
-    padding: 0;
-    border: 1px solid #e2e5ec;
+  margin-bottom: 0;
+  padding: 0;
+  border: 1px solid #e2e5ec;
 }
 
 .logo-camoniano-height {
-    height: 40px;
+  height: 40px;
 }
 
 @media (min-width: 1025px) {
-    .kt-wizard-v2 .kt-wizard-v2__aside2 {
-        width: 500px;
-        border-right: 1px solid #eeeef4;
-        padding: 1.0rem;
-    }
-    .kt-wizard-v2 .kt-wizard-v2__wrapper {
-        padding: 1.5rem;
-    }
+  .kt-wizard-v2 .kt-wizard-v2__aside2 {
+    width: 500px;
+    border-right: 1px solid #eeeef4;
+    padding: 1rem;
+  }
+  .kt-wizard-v2 .kt-wizard-v2__wrapper {
+    padding: 1.5rem;
+  }
 }
 
 .nav-pills.nav-tabs-btn.nav-pills-btn-camoniano a.nav-link.active {
-    background-color: #009CE5;
+  background-color: #009ce5;
 }
 
 .kt-badge.kt-badge--danger {
-    background-color: #B34442;
+  background-color: #b34442;
 }
 
 body {
-    color: #242939;
+  color: #242939;
 }
 
 .kt-font-watch {
-    color: #ADABC1 !important;
+  color: #adabc1 !important;
 }
 
 .kt-font-hover-watch:hover {
-    color: rgb(200, 198, 221);
+  color: rgb(200, 198, 221);
 }
 
 .kt-timeline .kt-timeline__item__xxx {
-    position: relative;
+  position: relative;
 }
 
 .kt-timeline .kt-timeline__item__xxx:before {
-    content: "";
-    width: 4px;
-    height: 100%;
-    background: #D1F4F1;
-    left: 1.5rem;
-    top: 0;
-    position: absolute;
+  content: "";
+  width: 4px;
+  height: 100%;
+  background: #d1f4f1;
+  left: 1.5rem;
+  top: 0;
+  position: absolute;
 }
 
 .kt-timeline .kt-timeline__item__xxx .kt-timeline__item-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.kt-timeline .kt-timeline__item__xxx .kt-timeline__item-section .kt-timeline__item-section-border {
-    border-top: 8px solid #fff;
-    border-bottom: 8px solid #fff;
-    position: relative;
+.kt-timeline
+  .kt-timeline__item__xxx
+  .kt-timeline__item-section
+  .kt-timeline__item-section-border {
+  border-top: 8px solid #fff;
+  border-bottom: 8px solid #fff;
+  position: relative;
 }
 
-.kt-timeline .kt-timeline__item__xxx .kt-timeline__item-section .kt-timeline__item-section-border .kt-timeline__item-section-icon {
-    width: 3.2rem;
-    height: 3.2rem;
-    border-radius: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+.kt-timeline
+  .kt-timeline__item__xxx
+  .kt-timeline__item-section
+  .kt-timeline__item-section-border
+  .kt-timeline__item-section-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-.kt-timeline .kt-timeline__item__xxx .kt-timeline__item-section .kt-timeline__item-section-border .kt-timeline__item-section-icon>i {
-    font-size: 1.7rem;
+.kt-timeline
+  .kt-timeline__item__xxx
+  .kt-timeline__item-section
+  .kt-timeline__item-section-border
+  .kt-timeline__item-section-icon
+  > i {
+  font-size: 1.7rem;
 }
 
-.kt-timeline .kt-timeline__item__xxx .kt-timeline__item-section .kt-timeline__item-datetime {
-    margin-left: 1.2rem;
-    color: #a1a8c3;
-    font-weight: 600;
-    font-size: 0.9rem;
+.kt-timeline
+  .kt-timeline__item__xxx
+  .kt-timeline__item-section
+  .kt-timeline__item-datetime {
+  margin-left: 1.2rem;
+  color: #a1a8c3;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .kt-timeline .kt-timeline__item__xxx .kt-timeline__item-text {
-    text-decoration: none;
-    margin-left: 4.4rem;
-    color: #646c9a;
-    font-weight: 400;
-    font-size: 1rem;
-    display: block;
+  text-decoration: none;
+  margin-left: 4.4rem;
+  color: #646c9a;
+  font-weight: 400;
+  font-size: 1rem;
+  display: block;
 }
 
 .kt-timeline .kt-timeline__item__xxx .kt-timeline__item-info {
-    padding: 1rem 0 2rem 4.4rem;
-    color: #a1a8c3;
-    font-weight: 400;
-    font-size: 0.9rem;
+  padding: 1rem 0 2rem 4.4rem;
+  color: #a1a8c3;
+  font-weight: 400;
+  font-size: 0.9rem;
 }
 
 .kt-timeline .kt-timeline__item__xxx:last-child .kt-timeline__item-info {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
-.kt-timeline .kt-timeline__item__xxx.kt-timeline__item--brand .kt-timeline__item-section .kt-timeline__item-section-border {
-    background-color: #fff;
+.kt-timeline
+  .kt-timeline__item__xxx.kt-timeline__item--brand
+  .kt-timeline__item-section
+  .kt-timeline__item-section-border {
+  background-color: #fff;
 }
 
-.kt-timeline .kt-timeline__item__xxx.kt-timeline__item--brand .kt-timeline__item-section .kt-timeline__item-section-border .kt-timeline__item-section-icon {
-    background-color: rgba(93, 120, 255, 0.2);
+.kt-timeline
+  .kt-timeline__item__xxx.kt-timeline__item--brand
+  .kt-timeline__item-section
+  .kt-timeline__item-section-border
+  .kt-timeline__item-section-icon {
+  background-color: rgba(93, 120, 255, 0.2);
 }
 
 .kt-timeline .kt-timeline__item__xxx .kt-timeline__item-text:hover {
-    color: #5d78ff;
+  color: #5d78ff;
 }
 
-.kt-timeline .kt-timeline__item__xxx.kt-timeline__item--xxx .kt-timeline__item-section .kt-timeline__item-section-border {
-    background-color: #fff;
+.kt-timeline
+  .kt-timeline__item__xxx.kt-timeline__item--xxx
+  .kt-timeline__item-section
+  .kt-timeline__item-section-border {
+  background-color: #fff;
 }
 
-.kt-timeline .kt-timeline__item__xxx.kt-timeline__item--xxx .kt-timeline__item-section .kt-timeline__item-section-border .kt-timeline__item-section-icon {
-    background-color: #D1F4F1;
+.kt-timeline
+  .kt-timeline__item__xxx.kt-timeline__item--xxx
+  .kt-timeline__item-section
+  .kt-timeline__item-section-border
+  .kt-timeline__item-section-icon {
+  background-color: #d1f4f1;
 }
 
 .kt-sticky-toolbar {
-        width: 60px;
-        height: 100%;
-        position: fixed;
-        top: 5%;
-        right: 0;
-        list-style: none;
-        padding: 5px 0;
-        margin-top: -50px;
-        z-index: 50;
-        background: #fff;
-        -webkit-box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
-        box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        border-radius: 3px 0 0 3px;
+  width: 60px;
+  height: 100%;
+  position: fixed;
+  top: 5%;
+  right: 0;
+  list-style: none;
+  padding: 5px 0;
+  margin-top: -50px;
+  z-index: 50;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+  box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 3px 0 0 3px;
 }
 
 .kt-sticky-toolbar-mobile {
-    width: 60px;
-        position: absolute;
-        top: 13%;
-        right: 0;
-        list-style: none;
-        padding: 5px 0;
-        margin-top: 5px;
-        z-index: 50;
-        background: #fff;
-        -webkit-box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
-        box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        border-radius: 3px 0 0 3px;
+  width: 60px;
+  position: absolute;
+  top: 13%;
+  right: 0;
+  list-style: none;
+  padding: 5px 0;
+  margin-top: 5px;
+  z-index: 50;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+  box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 3px 0 0 3px;
+}
+
+.img-background-upload {
+  background-color: #34BFA3;
 }
