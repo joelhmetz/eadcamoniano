@@ -687,3 +687,9 @@ body {
   -ms-flex-align: center;
   align-items: center;
 }
+
+.form-control-input-color {
+  color: #536BE1;
+  font-weight: bold;
+  font-size: 22.75px;
+}
