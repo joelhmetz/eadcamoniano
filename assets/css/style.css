@@ -693,3 +693,33 @@ body {
   font-weight: bold;
   font-size: 22.75px;
 }
+
+.form-control-input-color2 {
+  color: #536BE1;
+}
+
+.number-index-class{
+  color:#ADABC1;
+  font-size: 11px;
+  font-weight: 300;
+}
+.title-index-class{
+  color:#ADABC1;
+  font-size: 16.25px;
+  font-weight: 300;  
+  
+  white-space: nowrap; 
+  width: 210px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.sub-title-index-class{
+  color:#ADABC1;
+  font-size: 13px;
+  font-weight: 300;  
+  
+  white-space: nowrap; 
+  width: 210px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
