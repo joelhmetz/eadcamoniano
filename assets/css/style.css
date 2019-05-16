@@ -657,29 +657,28 @@ body {
 }
 
 .img-background-upload {
-  background-color: #34BFA3;
+  background-color: #34bfa3;
 }
-
 
 .modal_bg_cover {
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	z-index:99;
-  background-color:rgba(255, 255, 255, 0.95);
-	display:none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background-color: rgba(255, 255, 255, 0.95);
+  display: none;
 }
 .modal_cover {
-  position:absolute;
-	width:400px;
-	height:300px;
+  position: absolute;
+  width: 400px;
+  height: 300px;
 
-	z-index:100;
-	top:150px;
-	left:50%;
-  margin-left:-200px;
+  z-index: 100;
+  top: 150px;
+  left: 50%;
+  margin-left: -200px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -689,37 +688,36 @@ body {
 }
 
 .form-control-input-color {
-  color: #536BE1;
+  color: #536be1;
   font-weight: bold;
   font-size: 22.75px;
 }
 
 .form-control-input-color2 {
-  color: #536BE1;
+  color: #536be1;
 }
 
-.number-index-class{
-  color:#ADABC1;
+.number-index-class {
+  color: #adabc1;
   font-size: 11px;
   font-weight: 300;
 }
-.title-index-class{
-  color:#ADABC1;
+.title-index-class {
+  color: #adabc1;
   font-size: 16.25px;
-  font-weight: 300;  
-  
-  white-space: nowrap; 
-  width: 210px; 
+  font-weight: 300;
+
+  white-space: nowrap;
+  width: 210px;
   overflow: hidden;
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;
 }
-.sub-title-index-class{
-  color:#ADABC1;
+.sub-title-index-class {
+  color: #adabc1;
   font-size: 13px;
-  font-weight: 300;  
-  
-  white-space: nowrap; 
-  width: 210px; 
+  font-weight: 300;
+  white-space: nowrap;
+  width: 210px;
   overflow: hidden;
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;
 }
