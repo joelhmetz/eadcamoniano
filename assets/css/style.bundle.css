@@ -33916,8 +33916,6 @@ code {
     height: 5rem;
     border-radius: 50%;
     overflow: hidden;
-    background-color: rgba(93, 120, 255, 0.1);
-    color: #5d78ff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

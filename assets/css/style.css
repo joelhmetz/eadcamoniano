@@ -722,6 +722,37 @@ body {
   text-overflow: ellipsis;
 }
 
+
+
+.kt-widget-12 .kt-widget-12__body .kt-widget-12__head .kt-widget-12__date {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 1px solid #EEEEEE;
+  overflow: hidden;
+  background-color: none;
+  color: #AEACC2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 5rem;
+  flex: 0 0 5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 1.25rem;
+  text-transform: uppercase;
+  line-height: 1.3rem;
+}
+
 .kt-widget-12__date--success-536BE1{
   background-color: #536BE1;
 }
