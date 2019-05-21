@@ -493,6 +493,7 @@
 									</div>
 									</div>
 
+
 								<!--begin::Row-->
 								<div class="row pt-5">
 										<div class="col-lg-6 col-xl-4 order-lg-1 order-xl-1">
@@ -502,9 +503,23 @@
 													<div class="kt-portlet__body">
 														<div class="kt-widget-12__body">
 															<div class="kt-widget-12__head">
+																	<a href="#">
 																<div class="kt-widget-12__date">
 																		<i class="fas fa-palette"></i>
 																</div>
+															</a>
+															<div class="bolinhas">
+
+																	<div class="circlecor" id="circulo1"></div>
+																	<div class="circlecor" id="circulo2"></div>
+																	<div class="circlecor" id="circulo3"></div>
+																	<div class="circlecor" id="circulo4"></div>
+																	<div class="circlecor" id="circulo5"></div>
+																	<div class="circlecor" id="circulo6"></div>
+																	<div class="circlecor" id="circulo7"></div>
+																	<div class="circlecor" id="circulo8"></div>
+														
+															</div>
 																<div class="kt-widget-12__label">
 																	<h3 class="kt-widget-12__title"><input class="form-control kt-portlet--tabs-border-3x-focus" type="text" name="fname" placeholder="Insert Title"></h3>
 																	<span class="kt-widget-12__desc">Joel H. Metz</span>
@@ -578,7 +593,7 @@
 													<div class="kt-portlet__body">
 														<div class="kt-widget-12__body">
 															<div class="kt-widget-12__head">
-																<div class="kt-widget-12__date kt-widget-12__date--success">
+																<div class="kt-widget-12__date kt-widget-12__date--3DEB54">
 																	
 																</div>
 																<div class="kt-widget-12__label">
@@ -643,7 +658,7 @@
 														<div class="kt-portlet__body">
 															<div class="kt-widget-12__body">
 																<div class="kt-widget-12__head">
-																	<div class="kt-widget-12__date kt-widget-12__date--success-536BE1">
+																	<div class="kt-widget-12__date kt-widget-12__date--536BE1">
 																		
 																	</div>
 																	<div class="kt-widget-12__label">
@@ -714,7 +729,7 @@
 															<div class="kt-portlet__body">
 																<div class="kt-widget-12__body">
 																	<div class="kt-widget-12__head">
-																		<div class="kt-widget-12__date kt-widget-12__date--success-D94646">
+																		<div class="kt-widget-12__date kt-widget-12__date--D94646">
 																			
 																		</div>
 																		<div class="kt-widget-12__label">
@@ -780,7 +795,7 @@
 																<div class="kt-portlet__body">
 																	<div class="kt-widget-12__body">
 																		<div class="kt-widget-12__head">
-																			<div class="kt-widget-12__date kt-widget-12__date--EB3DA5"></div>
+																			<div class="kt-widget-12__date kt-widget-12__date--EBA03D"></div>
 																			<div class="kt-widget-12__label">
 																				<h3 class="kt-widget-12__title">Notes</h3>
 																				<span class="kt-widget-12__desc">Joel H. Metz</span>
@@ -969,9 +984,17 @@
   
   <script>
   $( function() {
-    $( "#sortable" ).sortable();
-    $( "#sortable" ).disableSelection();
-  } );
+	
+	$('.botao').bind('mouseover', function(){
+		$(this).addClass('menu2');
+	});
+
+	//$('.botao').bind('mouseout', function(){
+	//	$(this).removeClass('menu2');
+	//});
+
+
+  });
   </script>
 
 		<!--end::Page Scripts -->
