@@ -861,11 +861,11 @@ margin-top:13px;
 
 
 }
-.bolinhas{
+#bolinhas{
   position: absolute;
   margin-top: 5px;
   margin-left: 0;
-  display: block;
+  display: none;
 width: 366px;
 height: 164px;
 cursor: pointer;
