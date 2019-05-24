@@ -463,6 +463,11 @@
   background-color: #b34442;
 }
 
+.kt-badge.kt-badge--notselected {
+  color: #ffffff;
+  background: #d2d0e0;
+}
+
 body {
   color: #242939;
 }
@@ -872,4 +877,50 @@ cursor: pointer;
 background-color: #EBEDF2;
 border-radius: 5px;
 
+}
+
+.kt-radio>input:checked~span {
+  border: 1px solid #1dc9b7;
+}
+.kt-radio>span:after {
+  border: solid #1dc9b7;
+  background: #1dc9b7;
+}
+
+.kt-radio.kt-radio--wrong>span {
+  border: 1px solid #fb2f73;
+}
+
+.kt-radio.kt-radio--wrong>span:after {
+  border: solid #fb2f73;
+  background: #fb2f73;
+}
+
+.kt-radio.kt-radio--wrong>input:disabled~span:after {
+  border-color: #fb2f73;
+}
+
+.kt-radio.kt-radio--wrong>input:checked~span {
+  border: 1px solid #fb2f73;
+}
+
+.kt-radio.kt-radio--wrong.kt-radio--bold>input:checked~span {
+  border: 2px solid #fb2f73;
+}
+
+.kt-radio.kt-radio--wrong>input:disabled~span {
+  opacity: 0.6;
+}
+
+.kt-radio.kt-radio--wrong.kt-radio--solid>span {
+  background: #fb2f73;
+  border: 1px solid transparent !important;
+}
+
+.kt-checkbox>input:checked~span {
+  border: 1px solid #1dc9b7;
+}
+
+.kt-checkbox>span:after {
+  border: solid #1dc9b7;
 }
