@@ -167,7 +167,7 @@ var KTDashboard = function() {
             data: {
                 datasets: [{
                     data: [
-                        35, 30, 35
+                        100, 110, 90
                     ],
                     backgroundColor: [
                         KTApp.getBaseColor('shape', 3),
@@ -176,9 +176,9 @@ var KTDashboard = function() {
                     ]
                 }],
                 labels: [
-                    'Angular',
-                    'CSS',
-                    'HTML'
+                    'Finalizadas',
+                    'Submetidas',
+                    'A responder'
                 ]
             },
             options: {

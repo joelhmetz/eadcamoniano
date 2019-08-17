@@ -945,3 +945,12 @@ border-radius: 5px;
   border-color: #d2d0e0;
 }
 
+.bola {
+  border-radius: 50%;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #D94646;
+  background-color: #D94646;
+}
+
