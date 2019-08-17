@@ -917,7 +917,7 @@ var KTDashboard = function() {
                             </div>\
                         </div>\
                         <a href="#" class="btn btn-clean btn-icon btn-sm btn-icon-md" title="Edit details">\
-                            <i class="la la-edit"></i>\
+                            <i class="la la-eye"></i>\
                         </a>\
                     ';
                 }
