@@ -10,7 +10,7 @@
 
 	<!--end::Base Path -->
 	<meta charset="utf-8" />
-	<title>Keen | Invoice - v2</title>
+	<title>Keen | Toastr</title>
 	<meta name="description" content="Invoice template example">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -506,7 +506,13 @@
 
 								<!--begin::Portlet-->
 								<div class="kt-portlet">
+									<div class="row">
+									<div class="col-12">
 									<button class="btn btn-success" id="alertasuccess">Success</button>
+<hr>
+									<button class="btn btn-danger" id="alertadanger">Danger</button>
+								</div>
+							</div>
 								</div>
 
 								<!--end::Portlet-->
@@ -657,6 +663,7 @@
 	<script>
 
 		const alertasuccess = document.querySelector('#alertasuccess');
+		const alertadanger = document.querySelector('#alertadanger');
 
 		alertasuccess.addEventListener('click', () => {
 
@@ -677,9 +684,28 @@
 			"showMethod": "fadeIn",
 			"hideMethod": "fadeOut"
 		});
+		});
 
+		alertadanger.addEventListener('click', () => {
 
-		})
+toastr.error("Error inserting record!", " Error", {
+	"closeButton": true,
+  "debug": false,
+  "newestOnTop": true,
+  "progressBar": true,
+  "positionClass": "toast-top-right",
+  "preventDuplicates": false,
+  "onclick": null,
+  "showDuration": "300",
+  "hideDuration": "1000",
+  "timeOut": "5000",
+  "extendedTimeOut": "1000",
+  "showEasing": "swing",
+  "hideEasing": "linear",
+  "showMethod": "fadeIn",
+  "hideMethod": "fadeOut"
+});
+})
 
 		
 
