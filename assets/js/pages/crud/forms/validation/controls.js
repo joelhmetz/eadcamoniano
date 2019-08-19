@@ -4,6 +4,28 @@
 var KTFormControls = function () {
     // Private functions
     
+    var validate = function () {
+        $( "#kt_form_validate" ).validate({
+            // define validation rules
+            rules: {
+                email: {
+                    required: true,
+                    email: true 
+                }
+            },            
+            //display error alert on form submit  
+            invalidHandler: function(event, validator) {
+                var alert = $('#kt_form_validate_msg');
+                alert.parent().removeClass('kt-hidden');
+                KTUtil.scrollTo("kt_form_validate", -200);
+            },
+
+            submitHandler: function (form) {
+                //form[0].submit(); // submit the form
+            }
+        });       
+    }
+
     var demo1 = function () {
         $( "#kt_form_1" ).validate({
             // define validation rules
@@ -148,7 +170,8 @@ var KTFormControls = function () {
         // public functions
         init: function() {
             demo1(); 
-            demo2(); 
+            demo2();
+            validate(); 
         }
     };
 }();

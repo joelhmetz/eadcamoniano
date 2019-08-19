@@ -104,6 +104,7 @@ var KTSweetAlert2Demo = function() {
         $('#kt_sweetalert_demo_9').click(function(e) {
             swal({
                 title: 'Are you sure?',
+                animation: false,
                 text: "You won't be able to revert this!",
                 type: 'warning',
                 showCancelButton: true,
@@ -112,19 +113,23 @@ var KTSweetAlert2Demo = function() {
                 reverseButtons: true
             }).then(function(result){
                 if (result.value) {
-                    swal(
-                        'Deleted!',
-                        'Your file has been deleted.',
-                        'success'
-                    )
+                    swal({
+                        animation: false,
+                        title: 'Deleted!',
+                        text: 'Your file has been deleted.!',
+                        confirmButtonText: 'success',
+                        type: 'success'
+                    })
                     // result.dismiss can be 'cancel', 'overlay',
                     // 'close', and 'timer'
                 } else if (result.dismiss === 'cancel') {
-                    swal(
-                        'Cancelled',
-                        'Your imaginary file is safe :)',
-                        'error'
-                    )
+                    swal({
+                        animation: false,
+                        title: 'Cancelled!',
+                        text: 'Your file is safe :)',
+                        confirmButtonText: 'success',
+                        type: 'error'
+                    })
                 }
             });
         });
