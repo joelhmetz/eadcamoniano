@@ -954,3 +954,11 @@ border-radius: 5px;
   background-color: #D94646;
 }
 
+.nav-pills .nav-item .nav-link:active, .nav-pills .nav-item .nav-link.active, .nav-pills .nav-item .nav-link.active:hover{
+  border-radius: 25px;
+}
+
+.nav-pills .nav-item .nav-link, .nav-pills .nav-item .nav-link, .nav-pills .nav-item .nav-link{
+  border-radius: 25px;
+  background-color: #a0a5b8;
+}
